@@ -1,2 +1,1 @@
-build/*
-pkgconfig/rtprocess.pc
+*.AppImage*
