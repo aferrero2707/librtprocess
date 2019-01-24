@@ -6,5 +6,6 @@ if [ "$TARGET_PROJECT" = "RawTherapee" ]; then
 	echo "Preparing to build $TARGET_PROJECT"
 	rm -rf /sources/ci
 	cp -a /sources/ci-scripts/rt /sources/ci
+	bash /sources/ci/mkappimage.sh
 
 fi
