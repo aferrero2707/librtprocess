@@ -8,7 +8,7 @@ git clone https://github.com/aferrero2707/appimage-helper-scripts.git) || exit 1
 export AI_SCRIPTS_DIR="/sources/ci"
 export APPROOT=/work/appimage
 export AIPREFIX=/usr/local
-export RT_BRANCH=demosaic_source_folder
+export RT_BRANCH=librtprocess
 
 
 DO_BUILD=0
